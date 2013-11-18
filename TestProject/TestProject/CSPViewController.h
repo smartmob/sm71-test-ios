@@ -10,4 +10,6 @@
 
 @interface CSPViewController : UIViewController
 
+-(void)foo:(NSString *)bar;
+
 @end
