@@ -1,7 +1,7 @@
 #import "CSPViewController.h"
 
 @interface CSPViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *fooLabel;
 @end
 
 @implementation CSPViewController
@@ -20,6 +20,9 @@
 }
 
 - (void)foo:(NSString *)bar {
+    
+    [self.fooLabel setText:bar];
+    
     NSLog(@"%@", bar);
 }
 
