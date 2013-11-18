@@ -201,7 +201,7 @@
 				ORGANIZATIONNAME = Codesoup;
 				TargetAttributes = {
 					79109531183A0C2D002BB0CC = {
-						TestTargetID = 79109510183A0C2C002BB0CC;
+						TestTargetID = 79109510183A0C2C002BB0CC /* TestProject */;
 					};
 				};
 			};
